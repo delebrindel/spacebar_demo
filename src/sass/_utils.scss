@@ -1,0 +1,50 @@
+// Margin utilities similar to boostrap mt-1, mx-3 and so on
+@for $i from 0 through 5 {
+    $distance: $i + rem;
+    .m-#{$i} {
+        margin: $distance $distance $distance $distance;
+    }
+    .p-#{$i} {
+        padding: $distance $distance $distance $distance;
+    }
+    .my-#{$i} {
+        margin-top: $distance;
+        margin-bottom: $distance;
+    }
+    .py-#{$i} {
+        padding-top: $distance;
+        padding-bottom: $distance;
+    }
+    .mx-#{$i} {
+        margin-left: $distance;
+        margin-right: $distance;
+    }
+    .px-#{$i} {
+        padding-left: $distance;
+        padding-right: $distance;
+    }
+    .mt-#{$i} {
+        margin-top: $distance;
+    }
+    .pt-#{$i} {
+        padding-top: $distance;
+    }
+    .mb-#{$i} {
+        margin-bottom: $distance;
+    }
+    .pb-#{$i} {
+        padding-bottom: $distance;
+    }
+    .ml-#{$i} {
+        margin-left: $distance;
+    }
+    .pl-#{$i} {
+        padding-left: $distance;
+    }
+    .mr-#{$i} {
+        margin-right: $distance;
+    }
+    .pr-#{$i} {
+        padding-right: $distance;
+    }
+}
