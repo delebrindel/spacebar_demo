@@ -27,6 +27,7 @@
   "homepage": "https://github.com/delebrindel/spacebar_demo#readme",
   "dependencies": {
     "bulma": "^0.7.4",
+    "jquery": "^3.3.1",
     "reveal": "0.0.4"
   },
   "devDependencies": {
