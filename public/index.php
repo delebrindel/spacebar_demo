@@ -11,6 +11,7 @@
             include "slides/slide_3.php"; 
             include "slides/slide_4.php"; 
             include "slides/slide_5.php"; 
+            include "slides/slide_6.php"; 
             ?>
 			</div>
 		</div>
