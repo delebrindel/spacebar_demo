@@ -11,6 +11,8 @@ $(function(){
   $("#slide-4").load( slidesFolder + "slide_4.html"); 
   $("#slide-5").load( slidesFolder + "slide_5.html"); 
   $("#slide-6").load( slidesFolder + "slide_6.html"); 
+  $("#slide-7").load( slidesFolder + "slide_7.html"); 
+  $("#slide-8").load( slidesFolder + "slide_8.html"); 
   Reveal.initialize({
     controls: true,
     progress: true,
