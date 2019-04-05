@@ -1,0 +1,34 @@
+@import "bulma";
+@import "../node_modules/reveal/index.css";
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul.presentation li{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.25em;
+}
+.column{
+    margin-bottom: 1em !important;
+}
+.column h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.column h3{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.column h4{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.column p{
+    font-size: 1.2rem;
+}
+.column code{
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+}
